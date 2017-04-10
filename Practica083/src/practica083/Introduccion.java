@@ -15,7 +15,7 @@ public class Introduccion {
     private double a, b, c;
     Scanner teclado=new Scanner (System.in); /*Entrada teclado*/
     
-    public Introduccion(){ //Introducimos el valor de dinero
+    public Introduccion(){
         
         System.out.println("Que valor tienen A, B y C?"); /*Mensaje de introduccion*/
         a=teclado.nextDouble(); /*Indicando valor*/
