@@ -15,7 +15,7 @@ public class Practica083 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Llamamos a las clases esferico e introduccion
+        //Llamamos a las clases equacion e introduccion
         Equacion calculo=new Equacion();
         Introduccion valor=new Introduccion();
         
