@@ -11,7 +11,20 @@ package practicaext1;
  */
 public class Calculo {
     
-    public double hipotenusa(double b, double c){
-        return Math.sqrt(Math.pow(b,2)+Math.pow(c,2));
+    public double calcular(double hipotenusa, double b, double c){
+        double resultado=0;
+        if(hipotenusa==0 && b>0 && c>0){
+            resultado=Math.sqrt(Math.pow(b,2)+Math.pow(c,2));
+        }
+        else if (hipotenusa>0 && b==0 && c>0){
+            resultado=Math.sqrt(Math.pow(hipotenusa,2)-Math.pow(c,2));
+        }
+        else if (hipotenusa>0 && b>0 && c==0){
+            resultado=Math.sqrt(Math.pow(hipotenusa,2)-Math.pow(b,2));
+        }
+        else{
+            System.out.println("Los valores introducidos son incorrectos");
+        }
+        return resultado; 
     }
 }

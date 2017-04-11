@@ -19,8 +19,8 @@ public class PracticaExt1 {
         Calculo resultado=new Calculo();
         Introduccion valor=new Introduccion();
         
-        System.out.println("La longitud de la hipotenusa es de "
-        +resultado.hipotenusa(valor.B(), valor.C())); /*Resultado*/
+        System.out.println("La longitud del valor desconocido es de "
+        +resultado.calcular(valor.Hipo(),valor.B(), valor.C())); /*Resultado*/
         
     }
     
