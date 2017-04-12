@@ -18,7 +18,7 @@ public class PracticaExt2 {
          //Llamamos a las clases esferico e introduccion
         Calculo vueltas=new Calculo();
         Introduccion valor=new Introduccion();
-        valor.leerTiempo();//Declaramos el valor de dinero
+        valor.leerTiempo();//Declaramos el numero de segundos
         String [] nombres={"semanas","dias","horas", "minutos", "segundos"};
         
         System.out.println(valor.tiempo()+" segundos son: ");
