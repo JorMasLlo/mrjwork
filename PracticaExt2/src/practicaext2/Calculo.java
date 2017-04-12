@@ -21,7 +21,7 @@ public class Calculo {
         
         for(int contador=0; contador<cantidad.length; contador++){
             if(segundos>=cantidad[contador]){
-                devolver[contador]=(int)Math.floor(segundos/cantidad[contador]);//Obtenemos la cantidad de cantidad
+                devolver[contador]=(int)Math.floor(segundos/cantidad[contador]);//Obtenemos la cantidad del array cantidad
                 segundos=segundos-(devolver[contador]*cantidad[contador]);
             }
         }

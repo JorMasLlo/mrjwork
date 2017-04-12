@@ -15,7 +15,7 @@ public class PracticaExt2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         //Llamamos a las clases esferico e introduccion
+         //Llamamos a las clases calculo e introduccion
         Calculo vueltas=new Calculo();
         Introduccion valor=new Introduccion();
         valor.leerTiempo();//Declaramos el numero de segundos
