@@ -111,10 +111,6 @@ public class Practica085 {
                    
                    result=operacion.transferencia(cantidad, cuentas.get(eleccion).getSaldo(),
                    cuentas.get(eleccion2).getSaldo());
-                   
-                   for (int contador=0; contador<2; contador++){
-                       System.out.println("EL CONTENIDO DEL ARRAY ES... "+result[contador]);
-                   }
                    cuentas.get(eleccion).setSaldo(result[0]);
                    cuentas.get(eleccion2).setSaldo(result[1]);
                    break;
